@@ -1,10 +1,6 @@
 <?php
 include 'config.php';
 
-// echo "<pre>";
-// print_r($_GET);
-// echo "</pre>";
-
 $q = isset($_GET['q']) ? $_GET['q'] : '';
 if($q == '')
 {
