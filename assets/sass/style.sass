@@ -1,9 +1,10 @@
 body
 	background: #0B0C16
 
-p, td, th
+p, td, th, label
 	color: #EFEFEF
 	font-family: 'raleway', 'sans serif'
+	font-size: 14px
 
 
 
@@ -18,8 +19,8 @@ li
 
 
 nav
-	margin-left: 45px
-	margin-right: 45px
+	margin-left: 50px
+	margin-right: 50px
 	margin-top: 20px
 
 	img
@@ -32,28 +33,68 @@ nav
 			font-size: 18px
 			margin-left: 45px
 
+			a
+				color: #EFEFEF
 
 // exo list
 
 .info-container
 	margin-left: 10%
 
-	.info-names
-		background-color: rgba(255,255,255,0.3)
-	
-	ul
+	table
+		width: 100%
+		table-layout: fixed
 
-		th
-			font-size: 14px
-			text-transform: uppercase
-			width: 16%
-			text-align: center
+	.info-names
+	
+		tr
+
+			th
+				font-weight: bold
+				padding: 20px 15px
+				text-align: left
+				color: #fff
+				text-transform: uppercase
+				text-align: center
 
 	.info-datas
+		height: 70vh
+		overflow-x: auto
+		margin-top: 0px
 
 		.data-row
+			overflow-x: auto
+			margin-top: 0px
+
+			tr
+			&:nth-child(even)
+				background: rgba(255, 255, 255, 0.03)
 
 			td
-				display: inline-block
 				width: 16%
 				text-align: center
+				padding: 15px
+				text-align: left
+				vertical-align: middle
+				font-weight: 300
+				border-bottom: solid 1px rgba(255,255,255,0.03)
+				border-top: solid 1px rgba(255,255,255,0.03)
+				height: 70px
+				text-align: center
+
+	// filter form
+	.form
+
+		input
+			font-size: 18px
+			padding: 15px 10px 15px 5px
+			font-weight: 200
+			display: block
+			width: 170px
+			border: none
+			border-bottom: 1px solid #fff
+			color: #fff!important
+			background: none
+
+
+

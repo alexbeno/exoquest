@@ -1,6 +1,10 @@
 <?php
 include 'config.php';
 
+// echo "<pre>";
+// print_r($_GET);
+// echo "</pre>";
+
 $q = isset($_GET['q']) ? $_GET['q'] : '';
 if($q == '')
 {
@@ -14,9 +18,9 @@ else if ($q == 'exoplanets')
 {
 	$page = 'exoplanets';
 }
-else if($q == 'planete')
+else if(preg_match('/^article\/[-_a-z0-9]+$/', $q))
 {
-    $page = 'planete';
+    $page = 'article';
 }
 
 else
