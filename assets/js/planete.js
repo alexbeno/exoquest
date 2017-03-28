@@ -18,34 +18,10 @@
 	var light	= new THREE.DirectionalLight( 0xffffff, 1 )
 	light.position.set(5,5,5)
 	scene.add( light )
-	light.castShadow	= true
-	light.shadowCameraNear	= 0.01
-	light.shadowCameraFar	= 15
-	light.shadowCameraFov	= 45
-
-	light.shadowCameraLeft	= -1
-	light.shadowCameraRight	=  1
-	light.shadowCameraTop	=  1
-	light.shadowCameraBottom= -1
-	// light.shadowCameraVisible	= true
-
-	light.shadowBias	= 0.001
-	light.shadowDarkness	= 0.2
-
-	light.shadowMapWidth	= 1024
-	light.shadowMapHeight	= 1024
 
 	//add an object and make it move
 
-	// var datGUI	= new dat.GUI()
-
-	var containerEarth	= new THREE.Object3D()
-	containerEarth.rotateZ(-23.4 * Math.PI/180)
-	containerEarth.position.z	= 0
-	scene.add(containerEarth)
-
-
-	var mesh	= THREEx.Planets.createSun()
+	var mesh	= THREEx.Planets.createExo()
 	scene.add(mesh)
 
 	//		Camera Controls
