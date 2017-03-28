@@ -14,9 +14,9 @@ else if ($q == 'exoplanets')
 {
 	$page = 'exoplanets';
 }
-else if(preg_match('/^article\/[-_a-z0-9]+$/', $q))
+else if($q == 'planete')
 {
-    $page = 'article';
+    $page = 'planete';
 }
 
 else
