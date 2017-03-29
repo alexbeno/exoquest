@@ -51,10 +51,10 @@ nav
 					transition: width 0.3s ease 0s, left 0.3s ease 0s
 					width: 0
 
-				&:hover:after 
+				&:hover:after
 				  width: 100%
 				  left: 0
-				
+
 
 // exo list
 
@@ -66,7 +66,7 @@ nav
 		table-layout: fixed
 
 	.info-names
-	
+
 		tr
 
 			th
@@ -119,7 +119,7 @@ nav
 		width: 100vw
 		cursor: pointer
 		box-sizing: border-box
-		&::after 
+		&::after
 			content: ""
 			display: block
 			clear: both
@@ -337,21 +337,69 @@ header.home
 
 /*start discover*/
 
-.discover
-	color: white
 
-.moyenne-radius
-	color: green
+.container-describ
+	width: 100%
+	margin-bottom: 50px
+	.first-explain
+		width: 80%
+		margin: auto
+		font-size: 1vw
+	.confirm
+		width: 17%
+		text-align: center
+		position: relative
+		display: inline-block
+		margin-left: 5%
+		img
+			width: 100%
+			height: auto
+		.contain-text
+			width: 100%
+			position: absolute
+			top: 30%
+			p
+				font-size: 1.5vw
+			.nb
+				font-weight: bold
+				font-size: 2vw
+	.prob
+		width: 13%
+		text-align: center
+		position: relative
+		margin-top: 3%
+		display: inline-block
+		margin-left: 20%
+		img
+			width: 100%
+			height:
+			opacity: 0.5
+		.contain-text
+			width: 100%
+			position: absolute
+			top: 30%
+			p
+				font-size: 1.5vw
+			.nb
+				font-weight: bold
+				font-size: 2vw
+	.side-explain
+		width: 20%
+		display: inline-block
+		position: relative
+		margin-left: 17%
 
-.moyenne-mass
-	color: red
-
-.moyenne-temp
-	color: yellow
-
-.total-planete
-	color: purple
-/*end discover*/
+		.border
+			position: absolute
+			top: 0
+			width: 10px
+			height: 100%
+			border-left: 2px solid #EFEFEF
+		p
+			font-size: 1vw
+			margin-left: 15px
+		.unlight
+			color: #4eb0b2
 .container-average
 	width: 100%
 	margin: auto
@@ -365,7 +413,7 @@ header.home
 				stroke-dasharray: 5000
 		#circle-temp
 			#circle
-				animation: 2s 2s drawCircle ease-out
+				animation: 2s 2s drawCircle ease-out forwards
 				stroke-dasharray: 300
 				stroke-dashoffset: 300
 
@@ -393,3 +441,53 @@ header.home
 
 	100%
     opacity: 1
+
+.probability
+	width: 100%
+	position: relative
+	margin-top: 200px
+	.container-image
+		width: 100%
+		text-align: center
+		position: absolute
+		top: 0
+		left: 0
+		img
+			width: 25%
+			height: auto
+	.a .nb, .b .nb, .c .nb, .d .nb
+		font-size: 3vw
+		font-weight: bold
+		color :#4eb0b2
+		width: 50%
+		margin-bottom: 20px
+	.a .text, .b .text, .c .text, .d .text
+		width: 50%
+		font-size: 1vw
+		margin-bottom: 100px
+	.a .text, .b .text, .a .nb, .b .nb
+		text-align: right
+	.c .text, .d .text, .c .nb, .d .nb
+		text-align: left
+	.left
+		float: left
+		margin-left: 18%
+		margin-top: 5%
+	.right
+		float: right
+		margin-right: 1%
+		margin-top: 5%
+
+.container-diag
+	width: 80%
+	margin: auto
+	#diag
+		margin-top: 200px
+		width: 100%
+		height: auto
+	[class^="hover"]
+		display: none
+	[id^="bar"]:hover [class^="hover"]
+		display: block
+
+/*end discover*/

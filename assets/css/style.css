@@ -289,22 +289,67 @@ header.home {
 
 /*end home*/
 /*start discover*/
-.discover {
-  color: white; }
+.container-describ {
+  width: 100%;
+  margin-bottom: 50px; }
+  .container-describ .first-explain {
+    width: 80%;
+    margin: auto;
+    font-size: 1vw; }
+  .container-describ .confirm {
+    width: 17%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 5%; }
+    .container-describ .confirm img {
+      width: 100%;
+      height: auto; }
+    .container-describ .confirm .contain-text {
+      width: 100%;
+      position: absolute;
+      top: 30%; }
+      .container-describ .confirm .contain-text p {
+        font-size: 1.5vw; }
+      .container-describ .confirm .contain-text .nb {
+        font-weight: bold;
+        font-size: 2vw; }
+  .container-describ .prob {
+    width: 13%;
+    text-align: center;
+    position: relative;
+    margin-top: 3%;
+    display: inline-block;
+    margin-left: 20%; }
+    .container-describ .prob img {
+      width: 100%;
+      opacity: 0.5; }
+    .container-describ .prob .contain-text {
+      width: 100%;
+      position: absolute;
+      top: 30%; }
+      .container-describ .prob .contain-text p {
+        font-size: 1.5vw; }
+      .container-describ .prob .contain-text .nb {
+        font-weight: bold;
+        font-size: 2vw; }
+  .container-describ .side-explain {
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    margin-left: 17%; }
+    .container-describ .side-explain .border {
+      position: absolute;
+      top: 0;
+      width: 10px;
+      height: 100%;
+      border-left: 2px solid #EFEFEF; }
+    .container-describ .side-explain p {
+      font-size: 1vw;
+      margin-left: 15px; }
+    .container-describ .side-explain .unlight {
+      color: #4eb0b2; }
 
-.moyenne-radius {
-  color: green; }
-
-.moyenne-mass {
-  color: red; }
-
-.moyenne-temp {
-  color: yellow; }
-
-.total-planete {
-  color: purple; }
-
-/*end discover*/
 .container-average {
   width: 100%;
   margin: auto; }
@@ -315,7 +360,7 @@ header.home {
       animation: 20s draw ease-out forwards;
       stroke-dasharray: 5000; }
     .container-average #average #circle-temp #circle {
-      animation: 2s 2s drawCircle ease-out;
+      animation: 2s 2s drawCircle ease-out forwards;
       stroke-dasharray: 300;
       stroke-dashoffset: 300; }
     .container-average #average .text {
@@ -339,3 +384,53 @@ header.home {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.probability {
+  width: 100%;
+  position: relative;
+  margin-top: 200px; }
+  .probability .container-image {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .probability .container-image img {
+      width: 25%;
+      height: auto; }
+  .probability .a .nb, .probability .b .nb, .probability .c .nb, .probability .d .nb {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #4eb0b2;
+    width: 50%;
+    margin-bottom: 20px; }
+  .probability .a .text, .probability .b .text, .probability .c .text, .probability .d .text {
+    width: 50%;
+    font-size: 1vw;
+    margin-bottom: 100px; }
+  .probability .a .text, .probability .b .text, .probability .a .nb, .probability .b .nb {
+    text-align: right; }
+  .probability .c .text, .probability .d .text, .probability .c .nb, .probability .d .nb {
+    text-align: left; }
+  .probability .left {
+    float: left;
+    margin-left: 18%;
+    margin-top: 5%; }
+  .probability .right {
+    float: right;
+    margin-right: 1%;
+    margin-top: 5%; }
+
+.container-diag {
+  width: 80%;
+  margin: auto; }
+  .container-diag #diag {
+    margin-top: 200px;
+    width: 100%;
+    height: auto; }
+  .container-diag [class^="hover"] {
+    display: none; }
+  .container-diag [id^="bar"]:hover [class^="hover"] {
+    display: block; }
+
+/*end discover*/
