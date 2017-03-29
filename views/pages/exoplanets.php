@@ -31,12 +31,6 @@ if(!empty($_POST))
 	$disc_met = $_POST['disc-met'];
 	$nb_pla = (int)$_POST['pl-sys'];
 
-	var_dump($year_data);
-	var_dump($temp_data);
-	var_dump($temp_be_data);
-	var_dump($mass_data);
-	var_dump($disc_met);
-	var_dump($nb_pla);
 }
 ?>
 
