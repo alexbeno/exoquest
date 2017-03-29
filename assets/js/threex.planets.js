@@ -1,7 +1,7 @@
-var texture = ['exoquest/assets/image/planete-text/textur1.jpg','exoquest/assets/image/planete-text/textur2.jpg','exoquest/assets/image/planete-text/textur3.jpg',
-'exoquest/assets/image/planete-text/textur4.jpeg','exoquest/assets/image/planete-text/textur5.jpg','exoquest/assets/image/planete-text/textur6.jpg',
-'exoquest/assets/image/planete-text/textur7.jpg','exoquest/assets/image/planete-text/textur8.png',
-'exoquest/assets/image/planete-text/textur9.jpg','exoquest/assets/image/planete-text/textur10.jpg','si-space/assets/image/planete-text/textur11.jpg']
+var texture = ['exoquest/assets/img/planete-text/textur1.jpg','exoquest/assets/img/planete-text/textur2.jpg','exoquest/assets/img/planete-text/textur3.jpg',
+'exoquest/assets/img/planete-text/textur4.jpeg','exoquest/assets/img/planete-text/textur5.jpg','exoquest/assets/img/planete-text/textur6.jpg',
+'exoquest/assets/img/planete-text/textur7.jpg','exoquest/assets/img/planete-text/textur8.png',
+'exoquest/assets/img/planete-text/textur9.jpg','exoquest/assets/img/planete-text/textur10.jpg','exoquest/assets/img/planete-text/textur11.jpg']
 // Math.floor(Math.random() * texture.length - 1)
 var currentTexture = texture[Math.floor(Math.random() * texture.length)];
 
