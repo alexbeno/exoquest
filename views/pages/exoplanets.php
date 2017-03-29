@@ -7,7 +7,7 @@ $result = json_decode($data);
 
 //get the request
 if(!empty($_POST))
-{	
+{
 	if($_POST['disc-year'] == 1)
 		$year_data = "";
 	else
@@ -58,13 +58,13 @@ if(!empty($_POST))
 		</table>
 	</div>
 	<div class="info-datas">
-		<?php 
+		<?php
 		if(empty($_POST))
 			foreach ($result as $planet) : ?>
 		<div class="data-row">
 			<table>
 				<tbody>
-					<tr onclick="redirect()"><script>function redirect(){window.location="planete?id=<?=$planet->pl_name?>"}</script>	
+					<tr onclick="redirect()"><script>function redirect(){window.location="planete?id=<?=$planet->pl_name?>"}</script>
 						<td><img src="./assets/img/planets-min/blue-plan.png" alt="mini planet"></td>
 						<td><?= $planet->pl_name ?></td>
 						<td><?= $planet->pl_disc?></td>
@@ -81,15 +81,15 @@ if(!empty($_POST))
 
 	<?php foreach($result as $planet):
 			// build the perfect request
-	if(!empty($_POST['disc-year']))
+	if($_POST['disc-year'] > 1989)
 	{
 		$cond1 = ($planet->pl_disc === $year_data);
 		$req = $cond1;
 	}
-	if(!empty($_POST['up-temp']))
+	if($_POST['up-temp'] != 2999)
 	{
 		$cond2 = ($planet->st_teff >= $temp_data);
-		if(empty($_POST['disc-year']))
+		if($_POST['disc-year'] <= 1989)
 		{
 			$req = $cond2;
 		}
@@ -98,10 +98,10 @@ if(!empty($_POST))
 			$req = $req && $cond2;
 		}
 	}
-	if(!empty($_POST['bel-temp']))
+	if($_POST['bel-temp'] != 2999)
 	{
 		$cond3 = ($planet->st_teff <= $temp_be_data);
-		if(empty($_POST['disc-year']) && empty($_POST['disc-year']))
+		if($_POST['disc-year'] <= 1989 && $_POST['up-temp'] <= 2999)
 		{
 			$req = $cond3;
 		}
@@ -113,19 +113,26 @@ if(!empty($_POST))
 	if(!empty($_POST['disc-met']))
 	{
 		$cond4 = ($planet->pl_discmethod <= $disc_met);
-		if(empty($_POST['disc-year']) && empty($_POST['up-temp']) && empty($_POST['bel-temp']))
+		if($_POST['disc-met'] === "discover")
 		{
-			$req = $cond4;
+
 		}
 		else
 		{
-			$req = $req && $cond4;
+			if($_POST['disc-year'] <= 1989 && $_POST['up-temp'] <= 2999 && $_POST['bel-temp'] <= 2999)
+			{
+				$req = $cond4;
+			}
+			else
+			{
+				$req = $req && $cond4;
+			}
 		}
 	}
-	if(!empty($_POST['mass']))
+	if($_POST['mass'] > 0)
 	{
-		$cond5 = ($planet->st_mass == $mass_data);
-		if(empty($_POST['disc-year']) && empty($_POST['up-temp']) && empty($_POST['bel-temp']) && empty($_POST['disc-met']))
+		$cond5 = ($planet->st_mass >= $mass_data);
+		if($_POST['disc-year'] <= 1989 && $_POST['up-temp'] <= 2999 && $_POST['bel-temp'] <= 2999 && $_POST['disc-met'] === "discover")
 		{
 			$req = $cond5;
 		}
@@ -134,10 +141,10 @@ if(!empty($_POST))
 			$req = $req && $cond5;
 		}
 	}
-	if(!empty($_POST['pl-sys']))
+	if($_POST['pl-sys'] > 0)
 	{
-		$cond7 = ($planet->pl_pnum === $nb_pla);
-		if(empty($_POST['disc-year']) && empty($_POST['up-temp']) && empty($_POST['bel-temp']) && empty($_POST['disc-met']) && empty($_POST['mass']))
+		$cond6 = ($planet->pl_pnum === $nb_pla);
+		if($_POST['disc-year'] <= 1989 && $_POST['up-temp'] <= 2999 && $_POST['bel-temp'] <= 2999 && $_POST['disc-met'] === "discover" && $_POST['mass'] <= 0)
 		{
 			$req = $cond6;
 		}
@@ -193,6 +200,7 @@ if(!empty($_POST))
 	<div class="group">
 		<label for="disc-met">Discovery method </label><br>
 		<select name="disc-met">
+			<option value="discover">discover</option>
 			<option value="Radial Velocity">Radial Velocity</option>
 			<option value="Microlensing">Microlensing</option>
 			<option value="Transit">Transit</option>
