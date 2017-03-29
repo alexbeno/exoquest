@@ -5,6 +5,7 @@ $q = isset($_GET['q']) ? $_GET['q'] : '';
 if($q == '')
 {
   $page = 'home';
+  $home_class="home";
 }
 else if ($q == 'contact')
 {
@@ -17,6 +18,10 @@ else if ($q == 'exoplanets')
 else if($q == 'planete')
 {
     $page = 'planete';
+}
+else if($q == 'discover')
+{
+    $page = 'discover';
 }
 
 else

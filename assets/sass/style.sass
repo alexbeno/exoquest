@@ -46,7 +46,7 @@ nav
 		table-layout: fixed
 
 	.info-names
-	
+
 		tr
 
 			th
@@ -105,7 +105,7 @@ nav
 			width: initial
 			border: none
 			width: 9%
-		
+
 
 
 
@@ -188,3 +188,125 @@ nav
 				color: #E5FFF6
 
 /* end planet page */
+
+/*start home*/
+header.home
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+
+.container-home
+	width: 100%
+	height: 100vh
+	background-image: url(../img/galaxy-11.jpg)
+	background-size: cover
+	background-position: bottom
+
+	.content
+		position: absolute
+		right: 10vw
+		top: 30%
+		color: white
+
+		.sub-up-title
+			font-family: 'raleway', 'sans serif'
+			color: #EFEFEF
+			font-size: 1.5vw
+
+		.up-title
+				font-family: 'raleway', 'sans serif'
+				color: #46CDCF
+				font-size: 3.5vw
+				font-weight: bold
+
+		.title
+			font-family: 'raleway', 'sans serif'
+			color: #EFEFEF
+			font-size: 10vw
+			font-weight: bold
+			margin-top: -1vw
+
+		.explore, .discover
+			font-family: 'raleway', 'sans serif'
+			color: #EFEFEF
+			font-size: 1.2vw
+			font-weight: bold
+			background-color: rgba(0, 0, 0, 0.2)
+			padding: 1vw 3vw
+			border: 3px solid #EFEFEF
+			transition: all 0.3s ease
+
+		.explore
+			float: left
+			color: #3D84A8
+
+		.discover
+			float: right
+			color: #46CDCF
+
+		.explore:hover, .discover:hover
+			color: white
+			transition: all 0.3s ease
+	.planet
+		margin-left: -20vw
+/*end home*/
+
+/*start discover*/
+
+.discover
+	color: white
+
+.moyenne-radius
+	color: green
+
+.moyenne-mass
+	color: red
+
+.moyenne-temp
+	color: yellow
+
+.total-planete
+	color: purple
+/*end discover*/
+.container-average
+	width: 100%
+	margin: auto
+
+	#average
+		width: 100%
+		height: auto
+		#line-container
+			.line
+				animation: 20s draw ease-out forwards
+				stroke-dasharray: 5000
+		#circle-temp
+			#circle
+				animation: 2s 2s drawCircle ease-out
+				stroke-dasharray: 300
+				stroke-dashoffset: 300
+
+		.text
+			animation: 2s 2s fade ease-out forwards
+			opacity: 0
+
+@keyframes draw
+	0%
+		stroke-dashoffset: 5000
+
+	100%
+    stroke-dashoffset: 0
+
+@keyframes drawCircle
+	0%
+		stroke-dashoffset: 300
+
+	100%
+    stroke-dashoffset: 0
+
+@keyframes fade
+	0%
+		opacity: 0
+
+	100%
+    opacity: 1

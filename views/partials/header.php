@@ -13,7 +13,7 @@
   <script src='<?=URL?>assets/js/threex.atmospherematerial.js'></script>
 </head>
 <body>
-  <header>
+  <header class="<?= $home_class ?>">
     <nav>
     <img src="./assets/img/logo.png" alt="logo">
       <ul>

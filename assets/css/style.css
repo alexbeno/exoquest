@@ -81,75 +81,181 @@ nav {
     border: none;
     width: 9%; }
 
-    /*start planet page*/
-    .clear {
-      clear: both; }
+/*start planet page*/
+.clear {
+  clear: both; }
 
-    .container-planet {
-      width: 83.3%;
-      margin: auto; }
+.container-planet {
+  width: 83.3%;
+  margin: auto; }
 
-    .who {
-      position: absolute;
-      top: 40%;
-      left: 7vw; }
-      .who .name {
-        font-family: 'raleway', 'sans serif';
-        color: #EFEFEF;
-        font-weight: bold;
-        font-size: 3.5vw; }
-      .who .discover {
-        margin-top: 15px;
-        font-family: 'raleway', 'sans serif';
-        color: #EFEFEF;
-        display: inline-block;
-        font-size: 1vw; }
-        .who .discover span {
-          font-family: 'raleway', 'sans serif';
-          color: #ABEDD8;
-          font-weight: bold;
-          font-size: 3vw; }
-      .who .who-discover {
-        margin-top: 15px;
-        font-family: 'raleway', 'sans serif';
-        color: #3D84A8;
-        display: inline-block;
-        font-size: 3vw; }
-        .who .who-discover span {
-          font-family: 'raleway', 'sans serif';
-          color: #EFEFEF;
-          font-size: 1.2vw; }
+.who {
+  position: absolute;
+  top: 40%;
+  left: 7vw; }
+  .who .name {
+    font-family: 'raleway', 'sans serif';
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 3.5vw; }
+  .who .discover {
+    margin-top: 15px;
+    font-family: 'raleway', 'sans serif';
+    color: #EFEFEF;
+    display: inline-block;
+    font-size: 1vw; }
+    .who .discover span {
+      font-family: 'raleway', 'sans serif';
+      color: #ABEDD8;
+      font-weight: bold;
+      font-size: 3vw; }
+  .who .who-discover {
+    margin-top: 15px;
+    font-family: 'raleway', 'sans serif';
+    color: #3D84A8;
+    display: inline-block;
+    font-size: 3vw; }
+    .who .who-discover span {
+      font-family: 'raleway', 'sans serif';
+      color: #EFEFEF;
+      font-size: 1.2vw; }
 
-    .what {
-      position: absolute;
-      top: 25%;
-      right: 3vw; }
-      .what .line {
-        margin-bottom: 7vh;
-        width: 100%; }
-        .what .line .columns {
-          font-family: 'raleway', 'sans serif';
-          color: #EFEFEF;
-          font-size: 0.8vw;
-          margin-right: 6vw;
-          float: left; }
-        .what .line .result {
-          font-family: 'raleway', 'sans serif';
-          font-weight: bold;
-          color: green;
-          font-size: 2.2vw;
-          float: right; }
-      .what .line:nth-child(1) .result {
-        color: #48466D; }
-      .what .line:nth-child(2) .result {
-        color: #3D84A8; }
-      .what .line:nth-child(3) .result {
-        color: #46CDCF; }
-      .what .line:nth-child(4) .result {
-        color: #ABEDD8; }
-      .what .line:nth-child(5) .result {
-        color: #D5EDE5; }
-      .what .line:nth-child(6) .result {
-        color: #E5FFF6; }
+.what {
+  position: absolute;
+  top: 25%;
+  right: 3vw; }
+  .what .line {
+    margin-bottom: 7vh;
+    width: 100%; }
+    .what .line .columns {
+      font-family: 'raleway', 'sans serif';
+      color: #EFEFEF;
+      font-size: 0.8vw;
+      margin-right: 6vw;
+      float: left; }
+    .what .line .result {
+      font-family: 'raleway', 'sans serif';
+      font-weight: bold;
+      color: green;
+      font-size: 2.2vw;
+      float: right; }
+  .what .line:nth-child(1) .result {
+    color: #48466D; }
+  .what .line:nth-child(2) .result {
+    color: #3D84A8; }
+  .what .line:nth-child(3) .result {
+    color: #46CDCF; }
+  .what .line:nth-child(4) .result {
+    color: #ABEDD8; }
+  .what .line:nth-child(5) .result {
+    color: #D5EDE5; }
+  .what .line:nth-child(6) .result {
+    color: #E5FFF6; }
 
-    /* end planet page */
+/* end planet page */
+/*start home*/
+header.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.container-home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/galaxy-11.jpg);
+  background-size: cover;
+  background-position: bottom; }
+  .container-home .content {
+    position: absolute;
+    right: 10vw;
+    top: 30%;
+    color: white; }
+    .container-home .content .sub-up-title {
+      font-family: 'raleway', 'sans serif';
+      color: #EFEFEF;
+      font-size: 1.5vw; }
+    .container-home .content .up-title {
+      font-family: 'raleway', 'sans serif';
+      color: #46CDCF;
+      font-size: 3.5vw;
+      font-weight: bold; }
+    .container-home .content .title {
+      font-family: 'raleway', 'sans serif';
+      color: #EFEFEF;
+      font-size: 10vw;
+      font-weight: bold;
+      margin-top: -1vw; }
+    .container-home .content .explore, .container-home .content .discover {
+      font-family: 'raleway', 'sans serif';
+      color: #EFEFEF;
+      font-size: 1.2vw;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 1vw 3vw;
+      border: 3px solid #EFEFEF;
+      transition: all 0.3s ease; }
+    .container-home .content .explore {
+      float: left;
+      color: #3D84A8; }
+    .container-home .content .discover {
+      float: right;
+      color: #46CDCF; }
+    .container-home .content .explore:hover, .container-home .content .discover:hover {
+      color: white;
+      transition: all 0.3s ease; }
+  .container-home .planet {
+    margin-left: -20vw; }
+
+/*end home*/
+/*start discover*/
+.discover {
+  color: white; }
+
+.moyenne-radius {
+  color: green; }
+
+.moyenne-mass {
+  color: red; }
+
+.moyenne-temp {
+  color: yellow; }
+
+.total-planete {
+  color: purple; }
+
+/*end discover*/
+.container-average {
+  width: 100%;
+  margin: auto; }
+  .container-average #average {
+    width: 100%;
+    height: auto; }
+    .container-average #average #line-container .line {
+      animation: 20s draw ease-out forwards;
+      stroke-dasharray: 5000; }
+    .container-average #average #circle-temp #circle {
+      animation: 2s 2s drawCircle ease-out;
+      stroke-dasharray: 300;
+      stroke-dashoffset: 300; }
+    .container-average #average .text {
+      animation: 2s 2s fade ease-out forwards;
+      opacity: 0; }
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 5000; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes drawCircle {
+  0% {
+    stroke-dashoffset: 300; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
