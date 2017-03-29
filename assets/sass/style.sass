@@ -35,6 +35,26 @@ nav
 
 			a
 				color: #EFEFEF
+				cursor: pointer
+				position: relative
+				padding-bottom: 6px
+
+				&:after
+					background: none repeat scroll 0 0 transparent
+					bottom: 0
+					content: ""
+					display: block
+					height: 3px
+					left: 50%
+					position: absolute
+					background: #006CBF
+					transition: width 0.3s ease 0s, left 0.3s ease 0s
+					width: 0
+
+				&:hover:after 
+				  width: 100%
+				  left: 0
+				
 
 // exo list
 
@@ -46,7 +66,7 @@ nav
 		table-layout: fixed
 
 	.info-names
-
+	
 		tr
 
 			th
@@ -58,7 +78,7 @@ nav
 				text-align: center
 
 	.info-datas
-		height: 70vh
+		height: 78vh
 		overflow-x: auto
 		margin-top: 0px
 
@@ -66,9 +86,11 @@ nav
 			overflow-x: auto
 			margin-top: 0px
 
-			tr
 			&:nth-child(even)
 				background: rgba(255, 255, 255, 0.03)
+			&:hover
+				background: rgba(0, 108, 191, 0.24)
+				cursor: pointer
 
 			td
 				width: 16%
@@ -82,32 +104,93 @@ nav
 				height: 70px
 				text-align: center
 
+				img
+					height: 67px
+
 	// filter form
+	.filter-toggle
+		height: 20px
+		background: #3D84A8
+		position: absolute
+		bottom: 0
+		z-index: 1
+		padding: 11px
+		height: 50px
+		width: 100vw
+		cursor: pointer
+		box-sizing: border-box
+		&::after 
+			content: ""
+			display: block
+			clear: both
+		p
+			text-transform: uppercase
+			font-weight: bold
+			text-align: center
 	form
-		margin-top: 40px
+		box-sizing: border-box
+		padding: 10px
+		background: rgba(46, 82, 101, 0.9)
+		position: fixed
+		bottom: 0
+		display: none
+		width: 100vw
+		*
+			color: #fefefe
+			font-family: 'raleway', 'sans serif'
+			font-weight: bold
+		&:after
+			content: ""
+			display: block
+			height: 40px
+
+		select
+			color: #006CBF
+			font-weight: bold
+			font-size: 13px
 
 		input
-			background: transparent;
+			background: transparent
 			border: none
 			border-bottom: 1px solid #fff
-			color: #006CBF
-			width: 40px
+			color: #46CDCF
+			width: 110px
+			text-transform: uppercase
+			font-weight: bold
+			font-size: 14px
 
 		label
 			text-transform: uppercase
 
 		.group
-			margin-left: 20px
-			width: 13%
 			display: inline-block
+			margin-left: 50px
+			padding: 10px 20px
+			width: 14%
 
 		input[type=submit]
 			width: initial
 			border: none
-			width: 9%
+			font-weight: bold
+			color: #46CDCF
+			display: block
+			margin: 15px auto
 
+		.slider
+			appearance:none
+			width: 10rem
+			height: .25rem
+			outline: none
+			border-radius: .25rem
 
-
+			&::-webkit-slider-thumb
+				appearance: none
+				width: 1.5rem
+				height: 1.5rem
+				background-color: color-bg
+				border: .25rem solid white
+				border-radius: 1rem
+				cursor: pointer
 
 /*start planet page*/
 

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="<?=URL?>/assets/css/reset.css">
   <link rel="stylesheet" href="<?=URL?>/assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src='<?=URL?>assets/js/three.min.js'></script>
   <script src='<?=URL?>assets/js/threex.planets.js'></script>
   <script src='<?=URL?>assets/js/threex.atmospherematerial.js'></script>
