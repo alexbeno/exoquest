@@ -34,7 +34,6 @@ if(!empty($_POST))
 }
 ?>
 
-
 <div class="info-container">
 	<div class="info-names">
 		<table>
@@ -58,9 +57,9 @@ if(!empty($_POST))
 		<div class="data-row">
 			<table>
 				<tbody>
-					<tr onclick="redirect()"><script>function redirect(){window.location="planete?id=<?=$planet->pl_name?>"}</script>
+					<tr onclick="redirect('<?= $planet->pl_name ?>')">
 						<td><img src="./assets/img/planets-min/blue-plan.png" alt="mini planet"></td>
-						<td><?= $planet->pl_name ?></td>
+						<td class=""><?= $planet->pl_name ?></td>
 						<td><?= $planet->pl_disc?></td>
 						<td><?= $planet->st_teff . ' K'?></td>
 						<td><?= $planet->pl_discmethod?></td>
@@ -71,7 +70,6 @@ if(!empty($_POST))
 			</table>
 		</div>
 	<?php  endforeach ?>
-
 
 	<?php foreach($result as $planet):
 			// build the perfect request

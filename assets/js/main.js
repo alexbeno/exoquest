@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$( ".filter-toggle" ).click(function() {
-      $( "form" ).toggle('fade',500);
-    });
+		$( "form" ).toggle('fade',500);
+	});
 
 	$('input[type=range]').next().text(''); 
 	$('input[type=range]').on('input', function() {
@@ -9,3 +9,8 @@ $(document).ready(function() {
 		$(this).next().text($set);
 	});
 });
+
+function redirect(name) {
+	var link = name;
+	window.location="planete?id="+link;
+}
