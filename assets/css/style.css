@@ -429,8 +429,10 @@ header.home {
     width: 100%;
     height: auto; }
   .container-diag [class^="hover"] {
-    display: none; }
+    opacity: 0;
+    transition: all ease 0.3s; }
   .container-diag [id^="bar"]:hover [class^="hover"] {
-    display: block; }
+    opacity: 1;
+    transition: all ease 0.3s; }
 
 /*end discover*/
