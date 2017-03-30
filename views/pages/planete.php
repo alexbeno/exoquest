@@ -1,4 +1,4 @@
-<?php 
+<?php
 $data = file_get_contents('./assets/cache/data.json');
 
 $result = json_decode($data);
@@ -26,7 +26,7 @@ foreach ($result as $planet) :
       </div>
       <div class="line">
         <span class="columns">Temperature</span>
-        <span class="result"><?= $planet->st_teff?> K</span>
+        <span class="result"><span class="temp"><?= $planet->st_teff?></span> K</span>
         <div class="clear"></div>
       </div>
       <div class="line">
@@ -48,6 +48,6 @@ foreach ($result as $planet) :
     <?php
     } ?>
     <?php endforeach ?>
-   
+
 
 <script type="text/javascript" src="<?=URL?>/assets/js/planete.js"></script>

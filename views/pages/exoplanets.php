@@ -54,7 +54,7 @@ if(!empty($_POST))
 		<?php
 		if(empty($_POST))
 			foreach ($result as $planet) : ?>
-		<?php 
+		<?php
 		// choose planet color giving its temperature
 		if($planet->st_teff < 4000)
 			$color = "1";

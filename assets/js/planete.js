@@ -21,7 +21,7 @@
 
 	//add an object and make it move
 
-	var mesh	= THREEx.Planets.createExo()
+	var mesh	= THREEx.Planets.createExob()
 	scene.add(mesh)
 
 	//		Camera Controls
