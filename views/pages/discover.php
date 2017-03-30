@@ -12,14 +12,14 @@ $result = json_decode($data);
     <img src="assets/img/disc/confirmplanet.png" alt="">
     <div class="contain-text">
       <p class="text">Confirms exoplanets</p>
-      <p class="nb">3604</p>
+      <p id="first-nb" class="nb">3604</p>
     </div>
   </div>
   <div class="prob">
     <img src="assets/img/disc/teluric.png" alt="">
     <div class="contain-text">
       <p class="text">Probably tellurique</p>
-      <p class="nb">164</p>
+      <p id="seconde_nb" class="nb">164</p>
     </div>
   </div>
   <div class="side-explain">
@@ -66,3 +66,4 @@ $result = json_decode($data);
 <div class="container-diag">
   <?php include 'assets/svg/diag.php' ?>
 </div>
+<script type="text/javascript" src="<?=URL?>/assets/js/discover.js"></script>
