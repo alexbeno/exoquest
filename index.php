@@ -7,9 +7,10 @@ if($q == '')
   $page = 'home';
   $home_class="home";
 }
-else if ($q == 'contact')
+else if ($q == 'home')
 {
-  $page = 'contact';
+  $page = 'home';
+  $home_class="home";
 }
 else if ($q == 'exoplanets')
 {

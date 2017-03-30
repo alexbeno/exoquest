@@ -45,6 +45,8 @@ nav {
         nav ul li a:hover:after {
           width: 100%;
           left: 0; }
+      nav ul li .disc {
+        color: #46CDCF; }
 
 .info-container table {
   width: 100%;
@@ -147,7 +149,14 @@ nav {
     font-weight: bold;
     color: #46CDCF;
     display: block;
-    margin: 15px auto; }
+    margin: 15px auto;
+    padding: 10px 20px;
+    border: 2px solid #46CDCF;
+    transition: all 0.5s ease; }
+  .info-container form input[type=submit]:hover {
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s ease; }
   .info-container form .slider {
     width: 10rem;
     height: .25rem;
@@ -195,7 +204,8 @@ nav {
     font-family: 'raleway', 'sans serif';
     color: #3D84A8;
     display: inline-block;
-    font-size: 3vw; }
+    font-size: 3vw;
+    width: 20%; }
     .who .who-discover span {
       font-family: 'raleway', 'sans serif';
       color: #EFEFEF;
@@ -211,7 +221,7 @@ nav {
     .what .line .columns {
       font-family: 'raleway', 'sans serif';
       color: #EFEFEF;
-      font-size: 0.8vw;
+      font-size: 1vw;
       margin-right: 6vw;
       float: left; }
     .what .line .result {
@@ -231,7 +241,9 @@ nav {
   .what .line:nth-child(5) .result {
     color: #D5EDE5; }
   .what .line:nth-child(6) .result {
-    color: #E5FFF6; }
+    color: #E5FFF6;
+    width: 40%;
+    text-align: right; }
 
 /* end planet page */
 /*start home*/
@@ -266,23 +278,20 @@ header.home {
       color: #EFEFEF;
       font-size: 10vw;
       font-weight: bold;
-      margin-top: -1vw; }
-    .container-home .content .explore, .container-home .content .discover {
+      margin-top: -1vw;
+      margin-bottom: 5%; }
+    .container-home .content .explore {
       font-family: 'raleway', 'sans serif';
       color: #EFEFEF;
       font-size: 1.2vw;
       font-weight: bold;
       background-color: rgba(0, 0, 0, 0.2);
-      padding: 1vw 3vw;
+      padding: 1vw 6vw;
       border: 3px solid #EFEFEF;
-      transition: all 0.3s ease; }
-    .container-home .content .explore {
-      float: left;
-      color: #3D84A8; }
-    .container-home .content .discover {
-      float: right;
-      color: #46CDCF; }
-    .container-home .content .explore:hover, .container-home .content .discover:hover {
+      transition: all 0.3s ease;
+      color: #46CDCF;
+      margin-left: 5vw; }
+    .container-home .content .explore:hover {
       color: white;
       transition: all 0.3s ease; }
   .container-home .planet {
@@ -482,3 +491,36 @@ header.home {
 
 /*end loader*/
 /*reverse*/
+/*start 404*/
+.error_page {
+  width: 100%;
+  margin-top: 10%; }
+  .error_page h1 {
+    font-family: 'raleway', 'sans serif';
+    color: #EFEFEF;
+    font-size: 7vw;
+    font-weight: bold;
+    width: 45%;
+    margin: auto; }
+  .error_page h2 {
+    font-family: 'raleway', 'sans serif';
+    color: #46CDCF;
+    font-size: 7vw;
+    font-weight: bold;
+    width: 45%;
+    margin: auto; }
+  .error_page a {
+    font-family: 'raleway', 'sans serif';
+    font-size: 2vw;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    color: #46CDCF;
+    width: 63%;
+    margin: auto;
+    transition: all 0.5s ease; }
+    .error_page a:hover {
+      color: white;
+      transition: all 0.5s ease; }
+
+/*end 404*/
