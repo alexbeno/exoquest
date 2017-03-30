@@ -1,50 +1,10 @@
 <?php
 
-// Get content
-$data = file_get_contents('./assets/cache/data_test.json');
+@include 'cache_handler.php';
 
-$json_results = json_decode($data);
+$json_results = json_decode(json_cached_api_results());
 
 include 'exoplanets_sort.php';
-
-// function json_cached_api_results($cache_file = NULL, $expires = NULL)
-// {
-// 	global $request_type, $purge_cache, $limit_reached, $request_limit;
-
-// 	if(!$cache_file)
-// 		$cache_file = dirname('./assets/cache/data.json');
-
-// 	if(!$expires)
-// 		$expires = time() - 2*60*60;
-
-// 	if(!file_exists($cache_file))
-// 		die("Cache file is missing: $cache_file");
-
-// 	// Check that the file is older than the expire time and that it's not empty
-// 	if(filectime($cache_file) < $expires || file_get_contents($cache_file) == '')
-// 	{
-// 		// file is too old, refresh cache
-// 		$api_results = file_get_contents("http://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=exoplanets&format=json&select=pl_name,pl_orbper,st_mass,pl_pnum,st_teff,pl_disc,pl_discmethod,st_age,pl_radj,pl_pnum");
-// 		$json_results = json_encode($api_results);
-
-// 		// Remove cache file on error to avoid writing wrong xml
-// 		if($api_results && $json_results)
-// 			file_put_contents($cache_file, $json_results);
-// 		else
-// 			unlink($cache_file);
-// 	}
-// 	else
-// 	{
-// 		// Fetch cache
-// 		$json_results = file_get_contents($cache_file);
-// 		$request_type = 'JSON';
-// 	}
-
-// 	return json_decode($json_results);
-// }
-
-// var_dump(json_cached_api_results());
-// die;
 
 
 //get the request
