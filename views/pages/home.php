@@ -3,8 +3,7 @@
     <h3 class="sub-up-title">Exoquest is</h3>
     <h2 class="up-title">GALAXY</h2>
     <h1 class="title">SIZED</h1>
-    <a href="#" class="explore">EXPLORE</a>
-    <a href="#" class="discover">DISCOVER</a>
+    <a href="exoplanets" class="explore">EXPLORE</a>
   </div>
   <div class="planet"></div>
 </div>
