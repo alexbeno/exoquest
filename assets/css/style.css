@@ -437,3 +437,48 @@ header.home {
     transition: all ease 0.3s; }
 
 /*end discover*/
+/*start loader*/
+.loader.end {
+  display: none; }
+
+.loader {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000; }
+  .loader #loader {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 20%; }
+  .loader #loader #planet1 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s forwards; }
+  .loader #loader #planet2 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 1.5s forwards; }
+  .loader #loader #planet3 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 3s forwards; }
+  .loader #loader #planet4 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 4.5s forwards; }
+  .loader #loader #planet5 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 6s forwards; }
+  .loader #loader #planet6 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 7.5s forwards; }
+
+@keyframes fadeLoad {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*end loader*/
+/*reverse*/
