@@ -54,11 +54,28 @@ if(!empty($_POST))
 		<?php
 		if(empty($_POST))
 			foreach ($result as $planet) : ?>
+		<?php 
+		// choose planet color giving its temperature
+		if($planet->st_teff < 4000)
+			$color = "1";
+		elseif($planet->st_teff >= 4000 && $planet->st_teff < 5000)
+			$color = "2";
+		elseif($planet->st_teff >= 5000 && $planet->st_teff < 6000)
+			$color = "3";
+		elseif($planet->st_teff >= 6000 && $planet->st_teff < 11000)
+			$color = "4";
+		elseif($planet->st_teff >= 11000 && $planet->st_teff < 14000)
+			$color = "5";
+		elseif($planet->st_teff >= 14000 && $planet->st_teff < 19000)
+			$color = "6";
+		else
+			$color = "7";
+		?>
 		<div class="data-row">
 			<table>
 				<tbody>
 					<tr onclick="redirect('<?= $planet->pl_name ?>')">
-						<td><img src="./assets/img/planets-min/blue-plan.png" alt="mini planet"></td>
+						<td><img src="./assets/img/planets-min/plan-<?=$color?>.png" alt="mini planet"></td>
 						<td class=""><?= $planet->pl_name ?></td>
 						<td><?= $planet->pl_disc?></td>
 						<td><?= $planet->st_teff . ' K'?></td>
@@ -148,12 +165,27 @@ if(!empty($_POST))
 	?>
 	<?php if($req)
 	{
+		// choose planet color giving its temperature
+		if($planet->st_teff < 4000)
+			$color = "1";
+		elseif($planet->st_teff >= 4000 && $planet->st_teff < 5000)
+			$color = "2";
+		elseif($planet->st_teff >= 5000 && $planet->st_teff < 6000)
+			$color = "3";
+		elseif($planet->st_teff >= 6000 && $planet->st_teff < 11000)
+			$color = "4";
+		elseif($planet->st_teff >= 11000 && $planet->st_teff < 14000)
+			$color = "5";
+		elseif($planet->st_teff >= 14000 && $planet->st_teff < 19000)
+			$color = "6";
+		else
+			$color = "7";
 		?>
 		<div class="data-row">
 			<table>
 				<tbody>
-					<tr>
-						<td><img src="./assets/img/planets-min/blue-plan.png" alt="mini planet"></td>
+					<tr onclick="redirect('<?= $planet->pl_name ?>')">
+						<td><img src="./assets/img/planets-min/plan-<?=$color?>.png" alt="mini planet"></td>
 						<td><?= $planet->pl_name ?></td>
 						<td><?= $planet->pl_disc?></td>
 						<td><?= $planet->st_teff . ' K'?></td>
@@ -168,7 +200,6 @@ if(!empty($_POST))
 	}
 	else
 	{
-
 	}
 	?>
 <?php endforeach ?>
@@ -190,6 +221,14 @@ if(!empty($_POST))
 		<input type="range" name="bel-temp" min="2999" max="30000" class="range" value="0"><output></output>
 	</div>
 	<div class="group">
+		<label for="mass">Mass </label><br>
+		<input type="range" name="mass" min="0" max="3.9" step="0.01" value="0"><output></output>M
+	</div>
+	<div class="group">
+		<label for="pl-sys">Planets in the system </label><br>
+		<input type="range" name="pl-sys" min="0" max="7" value="0"><output></output>
+	</div>
+	<div class="group">
 		<label for="disc-met">Discovery method </label><br>
 		<select name="disc-met">
 			<option value="discover">discover</option>
@@ -198,14 +237,6 @@ if(!empty($_POST))
 			<option value="Transit">Transit</option>
 			<option value="Imaging">Imaging</option>
 		</select>
-	</div>
-	<div class="group">
-		<label for="mass">Mass </label><br>
-		<input type="range" name="mass" min="0" max="3.9" step="0.01" value="0"><output></output>M
-	</div>
-	<div class="group">
-		<label for="pl-sys">Planets in the system </label><br>
-		<input type="range" name="pl-sys" min="0" max="7" value="0"><output></output>
 	</div>
 	<input type="submit" value="search">
 </form>

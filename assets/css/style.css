@@ -90,7 +90,7 @@ nav {
   position: absolute;
   bottom: 0;
   z-index: 1;
-  padding: 11px;
+  padding: 20px;
   height: 50px;
   width: 100vw;
   cursor: pointer;
@@ -133,11 +133,12 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px; }
+  .info-container form input, .info-container form select {
+    margin-top: 10px; }
   .info-container form label {
     text-transform: uppercase; }
   .info-container form .group {
     display: inline-block;
-    margin-left: 50px;
     padding: 10px 20px;
     width: 14%; }
   .info-container form input[type=submit] {
