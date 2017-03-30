@@ -390,10 +390,10 @@
 		</linearGradient>
 		<path class="st44" d="M1382.9,69.7H1524c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1370.9,75.1,1376.3,69.7,1382.9,69.7z"/>
-		<text transform="matrix(1 0 0 1 1388.5551 112.795)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1388.5551 112.795)" class="st38 st5 st45">1467 discove</text>
 		<text transform="matrix(1 0 0 1 1492.7351 112.795)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1501.275 112.795)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1388.5551 141.795)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1388.5551 141.795)" class="st38 st5 st45">which 9 telluric</text>
 	</g>
 </g>
 <g id="bar03">
@@ -410,10 +410,10 @@
 		</linearGradient>
 		<path class="st47" d="M1492.1,668.3h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1480.1,673.7,1485.5,668.3,1492.1,668.3z"/>
-		<text transform="matrix(1 0 0 1 1497.7351 711.44)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1497.7351 711.44)" class="st38 st5 st45">184 discove</text>
 		<text transform="matrix(1 0 0 1 1601.9152 711.44)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1610.4551 711.44)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1497.7351 740.44)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1497.7351 740.44)" class="st38 st5 st45">which 17 telluric</text>
 	</g>
 </g>
 <g id="bar1">
@@ -430,10 +430,10 @@
 		</linearGradient>
 		<path class="st48" d="M1482.8,728.2H1624c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1470.8,733.6,1476.2,728.2,1482.8,728.2z"/>
-		<text transform="matrix(1 0 0 1 1488.48 771.27)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1488.48 771.27)" class="st38 st5 st45">48 discove</text>
 		<text transform="matrix(1 0 0 1 1592.66 771.27)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1601.2 771.27)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1488.48 800.27)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1488.48 800.27)" class="st38 st5 st45">which 12 telluric</text>
 	</g>
 </g>
 <g id="bar4">
@@ -470,10 +470,10 @@
 		</linearGradient>
 		<path class="st50" d="M1393.1,676.1h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1381.1,681.5,1386.5,676.1,1393.1,676.1z"/>
-		<text transform="matrix(1 0 0 1 1398.7749 719.18)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1398.7749 719.18)" class="st38 st5 st45">188 discove</text>
 		<text transform="matrix(1 0 0 1 1502.955 719.18)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1511.4949 719.18)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1398.7749 748.18)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1398.7749 748.18)" class="st38 st5 st45">which 26 telluric</text>
 	</g>
 </g>
 <g id="bar5">
@@ -490,10 +490,10 @@
 		</linearGradient>
 		<path class="st51" d="M1343.6,688h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1331.6,693.4,1337,688,1343.6,688z"/>
-		<text transform="matrix(1 0 0 1 1349.2151 731.09)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1349.2151 731.09)" class="st38 st5 st45">155 discove</text>
 		<text transform="matrix(1 0 0 1 1453.395 731.09)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1461.9351 731.09)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1349.2151 760.09)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1349.2151 760.09)" class="st38 st5 st45">which 27 telluric</text>
 	</g>
 </g>
 <g id="bar6">
@@ -510,10 +510,10 @@
 		</linearGradient>
 		<path class="st52" d="M1290.9,665.3H1432c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1278.9,670.7,1284.3,665.3,1290.9,665.3z"/>
-		<text transform="matrix(1 0 0 1 1296.5549 708.44)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1296.5549 708.44)" class="st38 st5 st45">197 discove</text>
 		<text transform="matrix(1 0 0 1 1400.7351 708.44)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1409.2749 708.44)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1296.5549 737.44)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1296.5549 737.44)" class="st38 st5 st45">which 24 telluric</text>
 	</g>
 </g>
 <g id="bar7">
@@ -530,10 +530,10 @@
 		</linearGradient>
 		<path class="st53" d="M1238.9,684.7H1380c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1226.9,690.1,1232.3,684.7,1238.9,684.7z"/>
-		<text transform="matrix(1 0 0 1 1244.5549 727.77)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1244.5549 727.77)" class="st38 st5 st45">117 discove</text>
 		<text transform="matrix(1 0 0 1 1348.735 727.77)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1357.2749 727.77)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1244.5549 756.77)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1244.5549 756.77)" class="st38 st5 st45">which 3 telluric</text>
 	</g>
 </g>
 <g id="bar8">
@@ -550,10 +550,10 @@
 		</linearGradient>
 		<path class="st54" d="M1185.9,707.5H1327c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1173.9,712.9,1179.3,707.5,1185.9,707.5z"/>
-		<text transform="matrix(1 0 0 1 1191.5549 750.615)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1191.5549 750.615)" class="st38 st5 st45">84 discove</text>
 		<text transform="matrix(1 0 0 1 1295.735 750.615)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1304.2749 750.615)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1191.5549 779.615)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1191.5549 779.615)" class="st38 st5 st45">which 8 telluric</text>
 	</g>
 </g>
 <g id="bar9">
@@ -570,10 +570,10 @@
 		</linearGradient>
 		<path class="st55" d="M1139,707.5h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H1139c-6.6,0-12-5.4-12-12v-76
 			C1127,712.9,1132.4,707.5,1139,707.5z"/>
-		<text transform="matrix(1 0 0 1 1144.635 750.615)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1144.635 750.615)" class="st38 st5 st45">61 discove</text>
 		<text transform="matrix(1 0 0 1 1248.8152 750.615)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1257.355 750.615)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1144.635 779.615)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1144.635 779.615)" class="st38 st5 st45">which 4 telluric</text>
 	</g>
 </g>
 <g id="bar10">
@@ -590,10 +590,10 @@
 		</linearGradient>
 		<path class="st56" d="M1080.6,722.5h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1068.6,727.9,1074,722.5,1080.6,722.5z"/>
-		<text transform="matrix(1 0 0 1 1086.2151 765.615)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1086.2151 765.615)" class="st38 st5 st45">58 discove</text>
 		<text transform="matrix(1 0 0 1 1190.395 765.615)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1198.9349 765.615)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1086.2151 794.615)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1086.2151 794.615)" class="st38 st5 st45">which 1 telluric</text>
 	</g>
 </g>
 <g id="bar11">
@@ -610,10 +610,10 @@
 		</linearGradient>
 		<path class="st57" d="M1029.3,735.8h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12h-141.1c-6.6,0-12-5.4-12-12v-76
 			C1017.3,741.2,1022.6,735.8,1029.3,735.8z"/>
-		<text transform="matrix(1 0 0 1 1034.885 778.915)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 1034.885 778.915)" class="st38 st5 st45">30 discove</text>
 		<text transform="matrix(1 0 0 1 1139.0652 778.915)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1147.605 778.915)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 1034.885 807.915)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 1034.885 807.915)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar12">
@@ -630,10 +630,10 @@
 		</linearGradient>
 		<path class="st58" d="M976.6,724.8h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H976.6c-6.6,0-12-5.4-12-12v-76
 			C964.6,730.2,970,724.8,976.6,724.8z"/>
-		<text transform="matrix(1 0 0 1 982.215 767.915)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 982.215 767.915)" class="st38 st5 st45">33 discove</text>
 		<text transform="matrix(1 0 0 1 1086.395 767.915)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1094.9351 767.915)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 982.215 796.915)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 982.215 796.915)" class="st38 st5 st45">which 2 telluric</text>
 	</g>
 </g>
 <g id="bar13">
@@ -650,10 +650,10 @@
 		</linearGradient>
 		<path class="st59" d="M923.9,727.8H1065c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H923.9c-6.6,0-12-5.4-12-12v-76
 			C911.9,733.2,917.3,727.8,923.9,727.8z"/>
-		<text transform="matrix(1 0 0 1 929.555 770.915)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 929.555 770.915)" class="st38 st5 st45">31 discove</text>
 		<text transform="matrix(1 0 0 1 1033.7351 770.915)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 1042.2749 770.915)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 929.555 799.915)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 929.555 799.915)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar14">
@@ -670,10 +670,10 @@
 		</linearGradient>
 		<path class="st60" d="M866.2,742.1h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H866.2c-6.6,0-12-5.4-12-12v-76
 			C854.2,747.5,859.6,742.1,866.2,742.1z"/>
-		<text transform="matrix(1 0 0 1 871.85 785.23)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 871.85 785.23)" class="st38 st5 st45">26 discove</text>
 		<text transform="matrix(1 0 0 1 976.03 785.23)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 984.5699 785.23)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 871.85 814.23)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 871.85 814.23)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar15">
@@ -690,10 +690,10 @@
 		</linearGradient>
 		<path class="st61" d="M817.4,727.8h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H817.4c-6.6,0-12-5.4-12-12v-76
 			C805.4,733.2,810.8,727.8,817.4,727.8z"/>
-		<text transform="matrix(1 0 0 1 823.0549 770.915)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 823.0549 770.915)" class="st38 st5 st45">31 discove</text>
 		<text transform="matrix(1 0 0 1 927.2349 770.915)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 935.7748 770.915)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 823.0549 799.915)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 823.0549 799.915)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar16">
@@ -710,10 +710,10 @@
 		</linearGradient>
 		<path class="st62" d="M765.6,744.3h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H765.6c-6.6,0-12-5.4-12-12v-76
 			C753.6,749.7,758.9,744.3,765.6,744.3z"/>
-		<text transform="matrix(1 0 0 1 771.1899 787.415)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 771.1899 787.415)" class="st38 st5 st45">14 discove</text>
 		<text transform="matrix(1 0 0 1 875.37 787.415)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 883.9099 787.415)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 771.1899 816.415)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 771.1899 816.415)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar17">
@@ -730,10 +730,10 @@
 		</linearGradient>
 		<path class="st63" d="M705.9,742.1H847c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H705.9c-6.6,0-12-5.4-12-12v-76
 			C693.9,747.5,699.2,742.1,705.9,742.1z"/>
-		<text transform="matrix(1 0 0 1 711.4849 785.23)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 711.4849 785.23)" class="st38 st5 st45">21 discove</text>
 		<text transform="matrix(1 0 0 1 815.6649 785.23)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 824.2048 785.23)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 711.4849 814.23)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 711.4849 814.23)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar18">
@@ -750,10 +750,10 @@
 		</linearGradient>
 		<path class="st64" d="M657.1,742.1h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H657.1c-6.6,0-12-5.4-12-12v-76
 			C645.1,747.5,650.4,742.1,657.1,742.1z"/>
-		<text transform="matrix(1 0 0 1 662.6898 785.23)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 662.6898 785.23)" class="st38 st5 st45">11 discove</text>
 		<text transform="matrix(1 0 0 1 766.8698 785.23)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 775.4097 785.23)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 662.6898 814.23)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 662.6898 814.23)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar19">
@@ -770,10 +770,10 @@
 		</linearGradient>
 		<path class="st65" d="M608.3,744.3h141.1c6.6,0,12,5.4,12,12v76c0,6.6-5.4,12-12,12H608.3c-6.6,0-12-5.4-12-12v-76
 			C596.3,749.7,601.6,744.3,608.3,744.3z"/>
-		<text transform="matrix(1 0 0 1 613.8947 787.415)" class="st38 st5 st45">842 discove</text>
+		<text transform="matrix(1 0 0 1 613.8947 787.415)" class="st38 st5 st45">8 discove</text>
 		<text transform="matrix(1 0 0 1 718.0747 787.415)" class="st38 st5 st45 st46">r</text>
 		<text transform="matrix(1 0 0 1 726.6146 787.415)" class="st38 st5 st45">y </text>
-		<text transform="matrix(1 0 0 1 613.8947 816.415)" class="st38 st5 st45">which 29 telluric</text>
+		<text transform="matrix(1 0 0 1 613.8947 816.415)" class="st38 st5 st45">which 0 telluric</text>
 	</g>
 </g>
 <g id="bar20">
