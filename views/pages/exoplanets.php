@@ -152,7 +152,7 @@ if(!empty($_POST))
 		<div class="data-row">
 			<table>
 				<tbody>
-					<tr>
+					<tr onclick="redirect('<?= $planet->pl_name ?>')">
 						<td><img src="./assets/img/planets-min/blue-plan.png" alt="mini planet"></td>
 						<td><?= $planet->pl_name ?></td>
 						<td><?= $planet->pl_disc?></td>
