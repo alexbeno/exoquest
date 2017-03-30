@@ -1,9 +1,11 @@
 <?php
 
 // Get content
-$data = file_get_contents('./assets/cache/data.json');
+$data = file_get_contents('./assets/cache/data_test.json');
 
 $json_results = json_decode($data);
+
+include 'exoplanets_sort.php';
 
 // function json_cached_api_results($cache_file = NULL, $expires = NULL)
 // {
@@ -80,12 +82,12 @@ if(!empty($_POST))
 			<thead>
 				<tr>
 					<th></th>
-					<th>Name</th>
-					<th>Discovery year</th>
-					<th>Temperature</th>
-					<th>Discovery method</th>
-					<th>Mass</th>
-					<th>Planets in the system</th>
+					<th>Name <a onclick="UpdateQueryString('name', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('name', 'desc');" class="arrow-down"></a></th>
+					<th>Discovery year <a onclick="UpdateQueryString('year', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('year', 'desc');" class="arrow-down"></a></th>
+					<th>Temperature <a onclick="UpdateQueryString('temp', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('temp', 'desc');" class="arrow-down"></a></th>
+					<th>Discovery method <a onclick="UpdateQueryString('disc', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('disc', 'desc');" class="arrow-down"></a></th>
+					<th>Mass <a onclick="UpdateQueryString('mass', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('mass', 'desc');" class="arrow-down"></a></th>
+					<th>Planets in the system <a onclick="UpdateQueryString('pnum', 'asc');" class="arrow-up"></a><a onclick="UpdateQueryString('pnum', 'desc');" class="arrow-down"></a></th>
 				</tr>
 			</thead>
 		</table>
@@ -278,6 +280,6 @@ if(!empty($_POST))
 			<option value="Imaging">Imaging</option>
 		</select>
 	</div>
-	<input type="submit" value="search">
+	<input type="submit" value="search" class="submit-search">
 </form>
 </div>

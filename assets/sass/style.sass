@@ -150,16 +150,15 @@ nav
 			font-size: 13px
 
 		input
-			background: transparent
-			border: none
-			border-bottom: 1px solid #fff
-			color: #46CDCF
 			width: 110px
 			text-transform: uppercase
 			font-weight: bold
 			font-size: 14px
 
-		input, select
+		.submit-search
+			background: transparent
+
+		select
 			margin-top: 10px
 
 		label
@@ -428,21 +427,21 @@ header.home
 		stroke-dashoffset: 5000
 
 	100%
-    stroke-dashoffset: 0
+	stroke-dashoffset: 0
 
 @keyframes drawCircle
 	0%
 		stroke-dashoffset: 300
 
 	100%
-    stroke-dashoffset: 0
+	stroke-dashoffset: 0
 
 @keyframes fade
 	0%
 		opacity: 0
 
 	100%
-    opacity: 1
+	opacity: 1
 
 .probability
 	width: 100%
@@ -540,3 +539,108 @@ header.home
 		opacity: 1
 /*end loader*/
 /*reverse*/
+
+.arrow-up, .arrow-down
+	float: right
+
+.arrow-up
+	width: 0
+	height: 0
+	border-left: 10px solid transparent
+	border-right: 10px solid transparent
+	border-bottom: 10px solid white
+
+.arrow-down
+	width: 0
+	height: 0
+	border-left: 10px solid transparent
+	border-right: 10px solid transparent
+	border-top: 10px solid white
+
+input[type=range]
+	box-sizing: border-box
+	font-size: 16px
+	line-height: 1
+	height: 2em
+	background-color: transparent
+	cursor: pointer
+	-webkit-appearance: none
+	width: 100%
+
+input[type=range]::-webkit-slider-thumb
+	-webkit-appearance: none
+
+input[type=range]:focus
+	outline: none
+
+input[type=range]::-ms-track
+	width: 100%
+	cursor: pointer
+	background: transparent
+	border-color: transparent
+	color: transparent
+
+input[type=range]::-webkit-slider-thumb
+	-webkit-appearance: none
+	width: 2em
+	height: 2em
+	margin-top: 0
+	background-color: rgba(46, 82, 101, 1)
+	border-radius: 1em
+	border: 2px solid rgba(255, 255, 255, 0.5)
+	cursor: pointer
+
+input[type=range]::-moz-range-thumb
+	width: 2em
+	height: 2em
+	margin-top: 0
+	background-color: rgba(46, 82, 101, 1)
+	border-radius: 1em
+	border: 2px solid rgba(255, 255, 255, 0.5)
+	cursor: pointer
+
+input[type=range]::-ms-thumb
+	width: 2em
+	height: 2em
+	margin-top: 0
+	background-color: rgba(46, 82, 101, 1)
+	border-radius: 1em
+	border: 2px solid rgba(255, 255, 255, 0.5)
+	cursor: pointer
+
+input[type=range]:hover::-webkit-slider-thumb
+	border-color: rgba(255, 255, 255, 0.7)
+
+input[type=range]:hover::-moz-range-thumb
+	border-color: rgba(255, 255, 255, 0.7)
+
+input[type=range]:hover::-ms-thumb
+	border-color: rgba(255, 255, 255, 0.7)
+
+input[type=range]:active::-webkit-slider-thumb
+	border-color: #ffffff
+
+input[type=range]:active::-moz-range-thumb
+	border-color: #ffffff
+
+input[type=range]:active::-ms-thumb
+	border-color: #ffffff
+
+input[type=range]::-webkit-slider-runnable-track
+	width: 100%
+	cursor: pointer
+	height: 1em
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5)
+	background-color: transparent
+
+input[type=range]::-moz-range-track
+	width: 100%
+	cursor: pointer
+	height: 1em
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5)
+	background-color: transparent
+
+input[type=range]::-ms-track
+	background: transparent
+	border-color: transparent
+	color: transparent
