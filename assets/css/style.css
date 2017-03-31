@@ -505,16 +505,16 @@ header.home {
 .arrow-up {
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid white; }
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff; }
 
 .arrow-down {
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid white; }
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff; }
 
 input[type=range] {
   box-sizing: border-box;
@@ -716,7 +716,7 @@ input[type=range]::-ms-track {
     .what .line .columns {
       font-size: 4vw; }
     .what .line .result {
-      font-size: 8vw; } }
+      font-size: 7vw; } }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 1400px) and (orientation: landscape) {
   header.home {
