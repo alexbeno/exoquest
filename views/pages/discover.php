@@ -11,7 +11,7 @@ $result = json_decode($data);
   <div class="confirm">
     <img src="assets/img/disc/confirmplanet.png" alt="">
     <div class="contain-text">
-      <p class="text">Confirms exoplanets</p>
+      <p class="text">Confirmed exoplanets</p>
       <p class="nb">3604</p>
     </div>
   </div>
@@ -59,7 +59,7 @@ $result = json_decode($data);
     </div>
     <div class="d">
       <p class="nb">1.12 %</p>
-      <p class="text">of confirm exoplanets make scientist optimistic as to their habitability</p>
+      <p class="text">of confirmed exoplanets make scientist optimistic as to their habitability</p>
     </div>
   </div>
 </div>
