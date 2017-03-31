@@ -2,6 +2,48 @@
 <svg id="loader" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1131.6 284.5" style="enable-background:new 0 0 1131.6 284.5;" xml:space="preserve">
 <style type="text/css">
+.loader.end {
+  display: none; }
+
+.loader {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000; }
+  .loader #loader {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 20%; }
+  .loader #loader #planet1 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s forwards; }
+  .loader #loader #planet2 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 1.5s forwards; }
+  .loader #loader #planet3 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 3s forwards; }
+  .loader #loader #planet4 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 4.5s forwards; }
+  .loader #loader #planet5 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 6s forwards; }
+  .loader #loader #planet6 {
+    opacity: 0;
+    animation: fadeLoad ease 1.5s 7.5s forwards; }
+
+@keyframes fadeLoad {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 	#loader .st0{fill:#A3C1B9;}
 	#loader .st1{fill:#B2D9CF;}
 	#loader .st2{fill:#A2BFB8;}
