@@ -7,7 +7,6 @@ var compteur = function(div, start, end, pas, vit)
     this.pas = pas;
     this.boucle = function()
     {
-      console.log(this.div);
       var that = this;
       function update()
       {
@@ -27,5 +26,5 @@ var compteur = function(div, start, end, pas, vit)
 
 var first = new compteur('#first-nb', 0, 3604, 4, 1);
 first.boucle();
-var first = new compteur('#seconde_nb', 0, 164, 1, 22);
-first.boucle();
+var second = new compteur('#seconde_nb', 0, 164, 1, 22);
+second.boucle();
