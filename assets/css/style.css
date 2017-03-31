@@ -657,7 +657,38 @@ input[type=range]::-ms-track {
       font-size: 5vw; }
     .container-home .content .explore {
       font-size: 6vw;
-      padding: 1vw 9vw; } }
+      padding: 1vw 9vw; }
+  .container-describ .side-explain {
+    width: 90%;
+    margin-left: 5%; }
+  .container-describ .prob {
+    width: 30%;
+    margin-top: 0; }
+    .container-describ .prob .contain-text p {
+      font-size: 3vw; }
+    .container-describ .prob .contain-text .nb {
+      font-size: 5vw; }
+  .container-describ .confirm {
+    width: 40%; }
+    .container-describ .confirm .contain-text p {
+      font-size: 3vw; }
+    .container-describ .confirm .contain-text .nb {
+      font-size: 5vw; }
+  .probability .container-image img {
+    display: none; }
+  .probability .left {
+    margin-left: 0%;
+    margin-top: -10%;
+    float: none;
+    margin-left: 10%; }
+  .probability .right {
+    float: none;
+    margin-left: 10%; }
+  .probability .a .text, .probability .b .text, .probability .c .text, .probability .d .text {
+    text-align: left;
+    width: 100%; }
+  .probability .a .nb, .probability .b .nb, .probability .c .nb, .probability .d .nb {
+    text-align: left; } }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
   header.home {
@@ -679,4 +710,27 @@ input[type=range]::-ms-track {
       font-size: 2vw; }
     .container-home .content .explore {
       font-size: 3vw;
-      padding: 1vw 4vw; } }
+      padding: 1vw 4vw; }
+  .container-describ .side-explain {
+    width: 80%;
+    margin-left: 10%; }
+  .container-describ .prob {
+    width: 30%;
+    margin-top: 0; }
+  .container-describ .confirm {
+    width: 40%; }
+  .probability .container-image img {
+    display: none; }
+  .probability .left {
+    margin-left: 0%;
+    margin-top: -10%;
+    float: none;
+    margin-left: 10%; }
+  .probability .right {
+    float: none;
+    margin-left: 10%; }
+  .probability .a .text, .probability .b .text, .probability .c .text, .probability .d .text {
+    text-align: left;
+    width: 100%; }
+  .probability .a .nb, .probability .b .nb, .probability .c .nb, .probability .d .nb {
+    text-align: left; } }
