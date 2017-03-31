@@ -2,6 +2,19 @@
 <svg id="diag" ersion="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1654 1008.1" style="enable-background:new 0 0 1654 1008.1;" xml:space="preserve">
 <style type="text/css">
+.container-diag {
+  width: 80%;
+  margin: auto; }
+  .container-diag #diag {
+    margin-top: 200px;
+    width: 100%;
+    height: auto; }
+  .container-diag [class^="hover"] {
+    opacity: 0;
+    transition: all ease 0.3s; }
+  .container-diag [id^="bar"]:hover [class^="hover"] {
+    opacity: 1;
+    transition: all ease 0.3s; }
 	#diag .st0{fill:#0E3D64;}
 	#diag .st1{opacity:0.5;}
 	#diag .st2{fill:none;stroke:#FEFEFE;stroke-miterlimit:10;}
