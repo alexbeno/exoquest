@@ -1,7 +1,7 @@
 body
 	background: #0B0C16
 
-p, td, th, label
+p, td, th, label, g
 	color: #EFEFEF
 	font-family: 'raleway', 'sans serif'
 	font-size: 14px
@@ -113,7 +113,7 @@ nav
 	.filter-toggle
 		height: 20px
 		background: #3D84A8
-		position: absolute
+		position: fixed
 		bottom: 0
 		z-index: 1
 		padding: 20px
@@ -350,11 +350,16 @@ header.home
 	width: 100%
 	margin-bottom: 50px
 	p
-		line-height: 22px
+		line-height: 24px
 	.first-explain
 		width: 80%
 		margin: auto
-		font-size: 1vw
+		font-size: 1.3em
+		line-height: 36px
+		text-align: center
+		margin-bottom: 50px
+		span
+			color: #4eb0b2
 	.confirm
 		width: 17%
 		text-align: center
@@ -402,14 +407,16 @@ header.home
 		.border
 			position: absolute
 			top: 0
-			width: 10px
+			width: 5px
 			height: 100%
 			border-left: 2px solid #EFEFEF
 		p
-			font-size: 1vw
+			font-size: 1em
 			margin-left: 15px
 		.unlight
 			color: #4eb0b2
+			font-size: 26px
+			line-height: 28px
 .container-average
 	width: 100%
 	margin: auto
@@ -466,14 +473,15 @@ header.home
 			width: 25%
 			height: auto
 	.a .nb, .b .nb, .c .nb, .d .nb
-		font-size: 3vw
+		font-size: 3em
 		font-weight: bold
 		color :#4eb0b2
 		width: 50%
 		margin-bottom: 20px
 	.a .text, .b .text, .c .text, .d .text
 		width: 50%
-		font-size: 1vw
+		font-size: 1em
+		line-height: 24px
 		margin-bottom: 100px
 	.a .text, .b .text, .a .nb, .b .nb
 		text-align: right

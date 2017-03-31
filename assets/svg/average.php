@@ -60,14 +60,14 @@ $nan_el_temp = 0;
 	 viewBox="0 0 690.4 197" style="enable-background:new 0 0 690.4 197;" xml:space="preserve">
 <style type="text/css">
 	#average .st0{fill:#48466D;}
-	#average .st1{font-family:'Raleway-Bold';}
-	#average .st2{font-size:26px;}
+	#average .st1{font-family:'Raleway';font-weight:800;}
+	#average .st2{font-size:24px;}
 	#average .st3{opacity:0.1;fill:#25242D;}
 	#average .st4{fill:none;stroke:#57BEC5;stroke-width:3;stroke-miterlimit:10;}
 	#average .st5{fill:#4D4D68;}
 	#average .st6{fill:none;stroke:#1B3551;stroke-width:3;stroke-miterlimit:10;}
 	#average .st7{fill:#FFFFFF;}
-	#average .st8{font-family:'Raleway-Light';}
+	#average .st8{font-family:'Raleway';font-weight:'light';}
 	#average .st9{font-size:17px;}
 	#average .st10{font-size:24px;}
 </style>

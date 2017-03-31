@@ -8,9 +8,9 @@
 	#diag .st3{fill:none;stroke:#FEFEFE;stroke-width:2;stroke-miterlimit:10;}
 	#diag .st4{fill:#FFFFFF;}
 	#diag .st5{font-family:'Futura-Medium';}
-	#diag .st6{font-size:45px;}
+	#diag .st6{font-size:24px;}
 	#diag .st7{fill:#57BEC5;}
-	#diag .st8{font-size:34px;}
+	#diag .st8{font-size:24px;}
 	#diag .st9{fill:#3D83A8;}
 	#diag .st10{fill:none;stroke:url(#SVGID_1_);stroke-width:2;stroke-miterlimit:10;}
 	#diag .st11{fill:none;stroke:url(#SVGID_2_);stroke-width:2;stroke-miterlimit:10;}
@@ -361,7 +361,7 @@
 		<text transform="matrix(1 0 0 1 491.73 51.3)" class="st38 st39 st40 st41">x</text>
 		<text transform="matrix(1 0 0 1 522.27 51.3)" class="st38 st39 st40">oplan</text>
 		<text transform="matrix(1 0 0 1 686.37 51.3)" class="st38 st39 st40">e</text>
-		<text transform="matrix(1 0 0 1 722.07 51.3)" class="st38 st39 st40">t Dis</text>
+		<text transform="matrix(1 0 0 1 722.07 51.3)" class="st38 st39 st40">t dis</text>
 		<text transform="matrix(1 0 0 1 847.58 51.3)" class="st38 st39 st40">c</text>
 		<text transform="matrix(1 0 0 1 881.12 51.3)" class="st38 st39 st40 st41">o</text>
 		<text transform="matrix(1 0 0 1 916.34 51.3)" class="st38 st39 st40 st41">v</text>

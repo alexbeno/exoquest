@@ -9,7 +9,7 @@
   <script src='<?=URL?>assets/js/loader.js'></script>
   <link rel="stylesheet" href="<?=URL?>/assets/css/reset.css">
   <link rel="stylesheet" href="<?=URL?>/assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,700,800" rel="stylesheet">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src='<?=URL?>assets/js/three.min.js'></script>
   <script src='<?=URL?>assets/js/threex.planets.js'></script>

@@ -6,7 +6,7 @@ $result = json_decode($data);
 
 ?>
 <div class="container-describ">
-  <p class="first-explain"> <strong>An Exoplanet</strong> is a planet that orbits a star other than the Sun. It’s in 1990 that discovery the first exoplanet,
+  <p class="first-explain"> <strong>An Exoplanet</strong> is <span>a planet that orbits a star other than the Sun.</span> It’s in 1990 that discovery the first exoplanet,
   the lost of ressoucre technical means had not confirmed their existence and doubts persisted.</p>
   <div class="confirm">
     <img src="assets/img/disc/confirmplanet.png" alt="">
@@ -30,7 +30,7 @@ $result = json_decode($data);
       <p class="unlight">The first criterion neccessary for life.</p></br>
       <p class="second">
         <strong>The method</strong>
-        use by the sscientist to define a teluric planet is to principaly see the mass planet. The planets which make at most eight times the mass of the earth are define as
+        used by scientists to define a teluric planet is to principaly see the mass planet. The planets which make at most eight times the mass of the earth are defined as
         <strong>probably teluric.</strong></p>
     </div>
   </div>
@@ -45,21 +45,21 @@ $result = json_decode($data);
   <div class="left">
     <div class="a">
       <p class="nb">31 %</p>
-      <p class="text">of teluric planet are probably habitable according to ESI index.</p>
+      <p class="text">of teluric planets are probably habitables according to ESI index.</p>
     </div>
     <div class="b">
       <p class="nb">76 %</p>
-      <p class="text">of probably habitable planet make scientist optimistic</p>
+      <p class="text">of probably habitable planets make scientists optimistic</p>
     </div>
   </div>
   <div class="right">
     <div class="c">
       <p class="nb">23 %</p>
-      <p class="text">of teluric planet make scientist optimistic as to their habitability.</p>
+      <p class="text">of teluric planets make scientists optimistic as to their habitability.</p>
     </div>
     <div class="d">
       <p class="nb">1.12 %</p>
-      <p class="text">of confirmed exoplanets make scientist optimistic as to their habitability</p>
+      <p class="text">of confirmed exoplanets make scientists optimistic as to their habitability</p>
     </div>
   </div>
 </div>
