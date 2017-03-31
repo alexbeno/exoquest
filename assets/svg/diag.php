@@ -371,7 +371,7 @@
 		<text transform="matrix(1 0 0 1 1094.84 51.3)" class="st38 st39 st40 st41">b</text>
 		<text transform="matrix(1 0 0 1 1131.8 51.3)" class="st38 st39 st40 st41">y</text>
 		<text transform="matrix(1 0 0 1 1163.1801 51.3)" class="st38 st39 st40 st41"> </text>
-		<text transform="matrix(1 0 0 1 1175.54 51.3)" class="st38 st39 st40 st42">Y</text>
+		<text transform="matrix(1 0 0 1 1175.54 51.3)" class="st38 st39 st40 st42">y</text>
 		<text transform="matrix(1 0 0 1 1209.5601 51.3)" class="st38 st39 st40">ea</text>
 		<text transform="matrix(1 0 0 1 1279.9401 51.3)" class="st38 st39 st40 st41">r</text>
 	</g>
