@@ -62,12 +62,12 @@ nav
 
 .info-container
 
-
 	table
 		width: 100%
 		table-layout: fixed
 
 	.info-names
+		overflow: scroll
 
 		tr
 
@@ -703,6 +703,8 @@ input[type=range]::-ms-track
 	nav ul li
     margin-left: 10px
 	nav img
+	margin: 0 auto
+	display: block
     margin-bottom: 20px
 	.container-home
 		.planet
@@ -719,6 +721,27 @@ input[type=range]::-ms-track
 			.explore
 				font-size: 6vw
 				padding: 1vw 9vw
+
+	.info-container
+		table
+			table-layout: initial
+		.info-names th
+			width: 90px
+			a
+				display: none
+	.info-datas
+		td
+			width: 150px
+	form
+		overflow: scroll
+		height: 80vh
+		.group
+			display: block!important
+			width: 80%!important
+			margin: 0 auto
+			input
+				width: 80%
+
 
 @media screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape)
 	header.home
@@ -743,3 +766,28 @@ input[type=range]::-ms-track
 			.explore
 				font-size: 3vw
 				padding: 1vw 4vw
+
+	.info-container
+		table
+			table-layout: initial
+		.info-names th
+			width: 90px
+			a
+				display: none
+	.info-datas
+		td
+			width: 150
+	form
+		overflow: scroll
+		height: 80vh
+
+		.group
+			display: block!important
+			width: 80%!important
+			margin: 0 auto
+			input
+				width: 80%
+
+
+
+
